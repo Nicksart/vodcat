@@ -25,3 +25,44 @@ body {
     text-wrap: balance;
   }
 }
+
+.text-stroke {
+  -webkit-text-stroke: 3px #000000;
+  filter: drop-shadow(0 6px 0px rgb(0 0 0 / 1));
+}
+
+.text-stroke-hard {
+  -webkit-text-stroke: 3px #000000;
+  filter: drop-shadow(0 12px 0px rgb(0 0 0 / 1));
+}
+
+.container {
+  max-width: 1600px;
+  padding: 0 80px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.delay-10000 {
+  animation-delay: 10s; 
+}
+
+.delay-3000 {
+  animation-delay: 3s;
+}
+
+.delay-5000 {
+  animation-delay: 5s; 
+}
+
+.delay-13000 {
+  animation-delay: 13s; 
+}
+
+.delay-15000 {
+  animation-delay: 15s; 
+}
