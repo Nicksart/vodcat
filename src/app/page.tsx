@@ -1,6 +1,5 @@
 import {
   Chart,
-  Footer,
   Header,
   Hero,
   Memes,

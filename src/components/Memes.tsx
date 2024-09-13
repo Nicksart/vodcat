@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import { CardWrap, Footer } from "./UI";
+import { Footer } from "./UI";
 import { useBreakpoint } from "@/utils/useBreakpoint";
 import { cn } from "@/utils";
 import { Heading } from "./UI/Heading";
