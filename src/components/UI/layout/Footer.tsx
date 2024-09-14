@@ -77,7 +77,7 @@ export const Footer = () => {
               </div>
             </a>
           </CardWrap>
-          <CardWrap>
+          {/* <CardWrap>
             <div className="bg-white rounded-md p-3 xl:p-4">
               <Image
                 src="/icons/discord.svg"
@@ -87,18 +87,27 @@ export const Footer = () => {
                 className="w-[30px] h-[30px] xl:w-[40px] xl:h-[40px]"
               />
             </div>
-          </CardWrap>
+          </CardWrap> */}
         </div>
 
-        <Button
-          type="red"
-          text="Buy $VODCAT"
-          className="py-4 xl:py-5 px-14 xl:px-24 text-[24px] lg:text-[30px] xl:text-[40px]"
-        />
+        <a
+          href="https://jupiter-terminal.dexscreener.com/?inputMint=HYJVpy2KRkF8L7W5cZmFQbs8HjsLvWQCPbUUSsbptaho&outputMint=So11111111111111111111111111111111111111112"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button
+            type="red"
+            text="Buy $VODCAT"
+            className="py-4 xl:py-5 px-14 xl:px-24 text-[24px] lg:text-[30px] xl:text-[40px]"
+          />
+        </a>
       </div>
       <div className="flex py-5 lg:py-20 gap-x-10 uppercase text-2xl">
         <h3>Need help?</h3>
         <a href="mailto:info@vodcat.io">info@vodcat.io</a>
+        <a href="https://solscan.io/account/HnRQjsxEnxHUhe9wZrfPf5jNNaAjjndXLwDte8Wcsbgh">
+          Marketing wallet
+        </a>
       </div>
     </footer>
   );

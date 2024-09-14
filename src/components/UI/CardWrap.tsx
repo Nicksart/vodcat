@@ -1,8 +1,9 @@
+import { cn } from "@/utils";
 
 
-export const CardWrap = ({ children }: {children: React.ReactNode}) => {
+export const CardWrap = ({ children, className }: {children: React.ReactNode, className?: string}) => {
     return (
-        <div className="rounded-lg bg-black border-black border-[3px] border-b-[6px]">
+        <div className={cn("rounded-lg bg-black border-black border-[3px] border-b-[6px]", className)}>
         {children}
         </div>
     );

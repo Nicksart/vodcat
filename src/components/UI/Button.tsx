@@ -20,11 +20,10 @@ type ButtonProps = {
 
 export const Button = ({text, type, onClick, className, withIcon}: ButtonProps) => {
   return (
-    <CardWrap>
+    <CardWrap className="">
       <button
-        onClick={onClick}
         className={cn(
-          "flex text-center justify-center items-center rounded-md uppercase w-full",
+          "flex text-center cursor-pointer justify-center items-center rounded-md uppercase w-full hover:brightness-90",
           buttonStyles[type],
           className
         )}

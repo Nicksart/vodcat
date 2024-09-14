@@ -17,7 +17,7 @@ const TokenomicsCard = ({
 }: TokenomicsCardProps) => {
   return (
     <CardWrap>
-      <div className="bg-white flex px-2 md:px-3 xl:px-5 py-5 xl:py-10 rounded-lg text-black w-full md:w-[400px] xl:w-[540px]">
+      <div className="bg-white hover:bg-customBlue flex px-2 md:px-3 xl:px-5 py-5 xl:py-10 rounded-lg text-black w-full md:w-[400px] xl:w-[540px]">
         <Image
           src={imgSrc}
           alt={imgAlt}

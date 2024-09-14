@@ -56,7 +56,7 @@ export const Hero = () => {
                   </div>
                 </a>
               </CardWrap>
-              <CardWrap>
+              {/* <CardWrap>
                 <a href="#" target="_blank" rel="noopener noreferrer">
                   <div
                     className="bg-white rounded-md p-3 xl:p-4"
@@ -70,15 +70,17 @@ export const Hero = () => {
                     />
                   </div>
                 </a>
-              </CardWrap>
+              </CardWrap> */}
             </div>
           </div>
-          <div className="mb-[50px] mt-6 md:mt-0">
+          <div className="mb-[50px] mt-6 md:mt-0 z-30">
+            <a href="https://jupiter-terminal.dexscreener.com/?inputMint=HYJVpy2KRkF8L7W5cZmFQbs8HjsLvWQCPbUUSsbptaho&outputMint=So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
             <Button
               type="red"
               text="Buy $VODCAT"
               className="py-3 md:py-4 xl:py-5 px-10 md:px-14 xl:px-24 text-[24px] md:text-[30px] xl:text-[40px]"
             />
+            </a>
           </div>
         </div>
         <Image
