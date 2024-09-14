@@ -40,6 +40,9 @@ const MemeColumn = ({ memes }: { memes: MemeCardProps[] }) => {
 };
 
 export const Memes = () => {
+    const isSm = useBreakpoint("sm");
+
+
   const memeDataLeft = [
     { src: "/memes/meme1.png", alt: "Image 1", width: 268, height: 339 },
     { src: "/memes/meme2.png", alt: "Image 2", width: 268, height: 305 },
@@ -54,17 +57,17 @@ export const Memes = () => {
     <section className="flex flex-col items-center w-full container z-20">
       <Heading text="Memes" />
 
-      <div className="flex flex-col md:flex-row gap-14 mt-12">
-        <MemeColumn memes={memeDataLeft} />
+      <div className="flex flex-col items-center lg:flex-row gap-14 mt-12">
+        {isSm && <MemeColumn memes={memeDataLeft} />}
 
-        <div className="bg-white relative hover:bg-customYellow p-5 rounded-lg w-[407px] h-[624px]">
+        <div className="bg-white relative hover:bg-customYellow p-5 rounded-lg w-[360px] h-[400px] md:w-[407px] md:h-[624px]">
           <div className="absolute top-0 left-0 w-full h-full p-5 overflow-hidden">
             <video
               autoPlay
               loop
               muted
               preload="none"
-              width={407}
+              width={isSm ? 360 : 407}
               height={624}
               className=" top-0 left-0 w-full h-full object-cover rounded-lg border-[3px] border-black"
             >
@@ -75,14 +78,14 @@ export const Memes = () => {
         </div>
 
         <div className="flex flex-col space-y-14">
-          <div className="bg-white relative hover:bg-customYellow p-5 rounded-lg w-[476px] h-[281px]">
+          <div className="bg-white relative hover:bg-customYellow p-5 rounded-lg w-[360px] h-[400px] md:w-[476px] md:h-[281px]">
             <div className="absolute top-0 left-0 w-full h-full p-5 overflow-hidden">
               <video
                 autoPlay
                 loop
                 muted
                 preload="none"
-                width={476}
+                width={isSm ? 360 : 476}
                 height={281}
                 className=" top-0 left-0 w-full h-full object-cover rounded-lg border-[3px] border-black"
               >
@@ -97,7 +100,6 @@ export const Memes = () => {
             alt="Image 3"
             width={476}
             height={163}
-            
           />
         </div>
       </div>
