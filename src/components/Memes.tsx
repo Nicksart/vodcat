@@ -59,6 +59,7 @@ export const Memes = () => {
           <div className="absolute top-0 left-0 w-full h-full p-5 overflow-hidden">
             <video
               autoPlay
+              playsInline
               loop
               muted
               preload="none"
