@@ -18,7 +18,7 @@ type ButtonProps = {
   withIcon?: 'tools' | 'screener';
 } 
 
-export const Button = ({text, type, onClick, className, withIcon}: ButtonProps) => {
+export const Button = ({text, type, className, withIcon}: ButtonProps) => {
   return (
     <CardWrap className="">
       <button

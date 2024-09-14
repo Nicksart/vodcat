@@ -48,11 +48,6 @@ export const Memes = () => {
     { src: "/memes/meme2.png", alt: "Image 2", width: 268, height: 305 },
   ];
 
-  const memeDataRight = [
-    { src: "/memes/meme4.png", alt: "Image 4", width: 476, height: 381 },
-    { src: "/memes/meme5.png", alt: "Image 5", width: 476, height: 263 },
-  ];
-
   return (
     <section className="flex flex-col items-center w-full container z-20">
       <Heading text="Memes" />
