@@ -5,7 +5,7 @@ const RoadmapDetails: RoadmapItemProps[] = [
   {
     title: "Burn at 1M MC",
     description:
-      "10% of total supply will be burnt at 1M market cap. $RICHCAT doesn't care about jeeters.",
+      "10% of total supply will be burnt at 1M market cap. $VODCAT doesn't care about jeeters.",
     img: "/roadmap/road1.png",
     rotation: -5.84,
     zIndex: 10
@@ -13,14 +13,14 @@ const RoadmapDetails: RoadmapItemProps[] = [
   {
     title: "Burn at 5M MC",
     description:
-      "$RICHCAT is happy with HODLERS. Another 20% of total supply will be burnt at 5M market cap. Jeeters are starting to cry.",
+      "$VODCAT is happy with HODLERS. Another 20% of total supply will be burnt at 5M market cap. Jeeters are starting to cry.",
     img: "/roadmap/road2.png",
     rotation: 2.77,
   },
   {
     title: "Burn at 10M MC",
     description:
-      "$RICHCAT decided it's time to fly to the moon. Another 20% of total supply will be burnt at 10M market cap. A secret rocket project is revealed to the jeeters.",
+      "$VODCAT decided it's time to fly to the moon. Another 20% of total supply will be burnt at 10M market cap. A secret rocket project is revealed to the jeeters.",
     img: "/roadmap/road3.png",
     rotation: -3.96,
   },
