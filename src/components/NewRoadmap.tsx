@@ -33,7 +33,7 @@ export const NewRoadmap = () => {
       <div className="flex flex-col items-center w-full mt-[100px] lg:mt-[160px]">
         <Heading text="Q3 2024" />
 
-        <div className="flex flex-col gap-y-6 sm:gap-y-0 sm:gap-x-5 lg:gap-x-10 w-full mt-10">
+        <div className="flex flex-col sm:flex-row gap-y-6 sm:gap-y-0 sm:gap-x-5 lg:gap-x-10 w-full mt-10">
           <div className="w-full sm:w-[22%] min-w-[200px]">
             <WhiteContainer className="w-full items-center justify-center ">
               <LocalHeading text="14/09/24" />
