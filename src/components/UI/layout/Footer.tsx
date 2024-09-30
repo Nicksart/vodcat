@@ -102,7 +102,7 @@ export const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex py-5 lg:py-20 gap-x-10 uppercase text-2xl">
+      <div className="flex py-5 lg:py-20 gap-x-10 uppercase text-base sm:text-2xl">
         <h3>Need help?</h3>
         <a href="mailto:info@vodcat.io">info@vodcat.io</a>
         <a href="https://solscan.io/account/HnRQjsxEnxHUhe9wZrfPf5jNNaAjjndXLwDte8Wcsbgh">
