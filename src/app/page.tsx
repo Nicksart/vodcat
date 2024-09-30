@@ -3,6 +3,7 @@ import {
   Header,
   Hero,
   Memes,
+  NewRoadmap,
   Roadmap,
   Tokenomics,
 } from "@/components";
@@ -39,6 +40,17 @@ export default function Home() {
       </article>
 
       <article
+        className="flex items-center flex-col pt-[450px] -mt-[450px] pb-[100px] w-full bg-customBrown bg-no-repeat"
+        style={{
+          backgroundImage: "url('/bg/bg-new.png'), url('/bg/bg3b.png')",
+          backgroundSize: "cover sm:contain",
+          backgroundPosition: "center top"
+        }}
+      >
+        <NewRoadmap />
+      </article>
+
+      <article
         className="flex items-center z-10 -mt-[350px] md:-mt-[300px] flex-col md:pt-10 w-full bg-no-repeat bg-cover"
         style={{ backgroundImage: "url('/bg/bg4.png')" }}
       >
@@ -53,7 +65,6 @@ export default function Home() {
         }}
       >
         <Memes />
-      
       </article>
     </main>
   );

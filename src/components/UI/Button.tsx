@@ -20,7 +20,7 @@ type ButtonProps = {
 
 export const Button = ({text, type, className, withIcon}: ButtonProps) => {
   return (
-    <CardWrap className="">
+    <CardWrap className="hover:scale-105 transition-all duration-500">
       <button
         className={cn(
           "flex text-center cursor-pointer justify-center items-center rounded-md uppercase w-full hover:brightness-90",

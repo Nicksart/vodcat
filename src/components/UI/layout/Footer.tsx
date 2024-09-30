@@ -35,7 +35,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex gap-x-2 lg:gap-x-5 xl:gap-x-10">
-          <CardWrap>
+          <CardWrap className="transition-all duration-500 hover:scale-105">
             <a
               href="https://x.com/Vodcatonsol"
               target="_blank"
@@ -45,7 +45,7 @@ export const Footer = () => {
                 onClick={() =>
                   window.open("https://x.com/Vodcatonsol", "_blank")
                 }
-                className="bg-white rounded-md p-3 xl:p-4"
+                className="bg-white hover:bg-customYellow transition-all duration-500 rounded-md p-3 xl:p-4"
               >
                 <Image
                   src="/icons/twitter.svg"
@@ -57,13 +57,13 @@ export const Footer = () => {
               </div>
             </a>
           </CardWrap>
-          <CardWrap>
+          <CardWrap className="transition-all duration-500 hover:scale-105">
             <a
               href="https://t.me/VodcatsonSol"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="bg-white rounded-md p-3 xl:p-4">
+              <div className="bg-white hover:bg-customYellow transition-all duration-500 rounded-md p-3 xl:p-4">
                 <Image
                   onClick={() =>
                     window.open("https://t.me/VodcatsonSol", "_blank")

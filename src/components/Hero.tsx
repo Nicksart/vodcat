@@ -22,13 +22,13 @@ export const Hero = () => {
               hodl
             </p>
             <div className="mt-4 md:mt-[65px] ml-2 flex justify-center md:justify-start gap-x-10">
-              <CardWrap>
+              <CardWrap className="transition-all duration-500 hover:scale-105">
                 <a
                   href="https://x.com/Vodcatonsol"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="bg-white rounded-md p-3 xl:p-4">
+                  <div className="bg-white hover:bg-customYellow transition-all duration-500  rounded-md p-3 xl:p-4">
                     <Image
                       src="/icons/twitter.svg"
                       alt="twitter"
@@ -39,13 +39,13 @@ export const Hero = () => {
                   </div>
                 </a>
               </CardWrap>
-              <CardWrap>
+              <CardWrap className="transition-all duration-500 hover:scale-105">
                 <a
                   href="https://t.me/VodcatsonSol"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="bg-white rounded-md p-3 xl:p-4">
+                  <div className="bg-white hover:bg-customYellow transition-all duration-500  rounded-md p-3 xl:p-4">
                     <Image
                       src="/icons/telegram.svg"
                       alt="telegram"
@@ -74,12 +74,16 @@ export const Hero = () => {
             </div>
           </div>
           <div className="mb-[50px] mt-6 md:mt-0 z-30">
-            <a href="https://jupiter-terminal.dexscreener.com/?inputMint=HYJVpy2KRkF8L7W5cZmFQbs8HjsLvWQCPbUUSsbptaho&outputMint=So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
-            <Button
-              type="red"
-              text="Buy $VODCAT"
-              className="py-3 md:py-4 xl:py-5 px-10 md:px-14 xl:px-24 text-[24px] md:text-[30px] xl:text-[40px]"
-            />
+            <a
+              href="https://jupiter-terminal.dexscreener.com/?inputMint=HYJVpy2KRkF8L7W5cZmFQbs8HjsLvWQCPbUUSsbptaho&outputMint=So11111111111111111111111111111111111111112"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                type="red"
+                text="Buy $VODCAT"
+                className="py-3 md:py-4 xl:py-5 px-10 md:px-14 xl:px-24 text-[24px] md:text-[30px] xl:text-[40px]"
+              />
             </a>
           </div>
         </div>

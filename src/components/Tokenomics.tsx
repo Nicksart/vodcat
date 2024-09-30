@@ -63,7 +63,7 @@ export const Tokenomics = () => {
         </div>
 
         <Image
-          src="/tokenomics/coin.png"
+          src="/tokenomics/coin.gif"
           alt="token"
           width={700}
           height={700}
