@@ -44,7 +44,7 @@ export default function Home() {
         style={{
           backgroundImage: "url('/bg/bg-new.png'), url('/bg/bg3b.png')",
           backgroundSize: "cover sm:contain",
-          backgroundPosition: "center top"
+          backgroundPosition: "center top",
         }}
       >
         <NewRoadmap />
@@ -56,7 +56,7 @@ export default function Home() {
       >
         <Tokenomics />
       </article>
-
+      
       <article
         className="flex items-center -mt-[150px] md:-mt-[280px] flex-col pt-10 w-full bg-customBrown bg-no-repeat bg-cover"
         style={{

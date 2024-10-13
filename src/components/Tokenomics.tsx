@@ -38,7 +38,7 @@ const TokenomicsCard = ({
 
 export const Tokenomics = () => {
   return (
-    <section className="flex flex-col items-center w-full h-[900px] xl:h-[1400px] container mt-[300px]">
+    <section className="flex relative flex-col items-center w-full h-[900px] xl:h-[1400px] container mt-[300px]">
 
         <Image
           src="/gifs/3.gif"
