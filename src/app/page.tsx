@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center bg-white font-londrina min-h-screen justify-start w-screen h-full">
+    <main className="flex flex-col items-center bg-white font-londrina min-h-screen justify-start w-screen overflow-x-hidden h-full">
       <article className="flex relative flex-col items-center pt-5 md:pt-10 w-full bg-customBlue">
         <Header />
         <Hero />
