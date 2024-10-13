@@ -30,6 +30,8 @@ const config: Config = {
         customBlue: "#0074FD",
         customPurple: "#C200C3",
         customBrown: "#4A2805",
+        hoverWhite: "#f0ccb2",
+        hoverBody: "#fff1b9",
       },
       fontFamily: {
         londrina: ["var(--font-londrina)", "sans-serif"],
@@ -39,12 +41,17 @@ const config: Config = {
       },
       keyframes: {
         moveCloud: {
-          "0%": { transform: "translateX(100vw)" }, 
+          "0%": { transform: "translateX(100vw)" },
           "100%": { transform: "translateX(-450px)" },
+        },
+        moveCloudReverse: {
+          "0%": { transform: "translateX(-450px)" },
+          "100%": { transform: "translateX(100vw)" },
         },
       },
       animation: {
         "cloud-move": "moveCloud 15s linear infinite",
+        "cloud-move-reverse": "moveCloudReverse 15s linear infinite",
       },
     },
   },

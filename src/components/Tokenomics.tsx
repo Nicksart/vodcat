@@ -39,6 +39,31 @@ const TokenomicsCard = ({
 export const Tokenomics = () => {
   return (
     <section className="flex flex-col items-center w-full h-[900px] xl:h-[1400px] container mt-[300px]">
+
+        <Image
+          src="/gifs/3.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move-reverse  -mt-[100px]"
+        />
+
+        <Image
+          src="/gifs/4.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move mt-[820px]"
+        />
+
+        <Image
+          src="/gifs/2.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move mt-[1520px]"
+        />
+
       <Heading text="Tokenomics" />
       <div className="flex justify-center lg:justify-between items-center w-full mt-10">
         <div className="flex flex-col gap-y-[20px] md:gap-y-[50px]">

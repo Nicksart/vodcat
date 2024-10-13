@@ -28,18 +28,43 @@ const WhiteContainer = ({ children, className }: {children: React.ReactNode, cla
 
 export const NewRoadmap = () => {
   return (
-    <section className="flex flex-col items-center justify-center  uppercase z-20 container text-[16px] lg:text-[20px] font-light text-black">
+    <section className="flex relative flex-col items-center justify-center  uppercase z-20 container text-[16px] lg:text-[20px] font-light text-black">
+      <div className="relative w-full h-full ">
+        <Image
+          src="/gifs/3.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move-reverse  mt-[100px]"
+        />
+
+        <Image
+          src="/gifs/4.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move mt-[620px]"
+        />
+
+        <Image
+          src="/gifs/2.gif"
+          alt="Moving Cloud"
+          width={200}
+          height={200}
+          className="absolute animate-cloud-move mt-[1520px]"
+        />
+      </div>
       <Heading text="Roadmap" />
       <div className="flex flex-col items-center w-full mt-[100px] lg:mt-[160px]">
         <Heading text="Q3 2024" />
 
         <div className="flex flex-col sm:flex-row gap-y-6 sm:gap-y-0 sm:gap-x-5 lg:gap-x-10 w-full mt-10">
           <div className="w-full sm:w-[22%] min-w-[200px]">
-            <WhiteContainer className="w-full items-center justify-center ">
+            <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
               <LocalHeading text="14/09/24" />
             </WhiteContainer>
 
-            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px]">
+            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px] hover:bg-hoverBody transition-all duration-500">
               <ul className="list-disc ml-[20px]">
                 <li>REALISE OF WEBSITE</li>
               </ul>
@@ -47,11 +72,11 @@ export const NewRoadmap = () => {
           </div>
 
           <div className="w-full sm:w-[22%] min-w-[200px]">
-            <WhiteContainer className="w-full items-center justify-center ">
+            <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
               <LocalHeading text="15/09/24" />
             </WhiteContainer>
 
-            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px]">
+            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px] hover:bg-hoverBody transition-all duration-500">
               <ul className="list-disc ml-[20px]">
                 <li>APPLY FOR DEXTOOLS</li>
                 <li>APPLY FOR VERIFIED AT JUPITER</li>
@@ -59,11 +84,11 @@ export const NewRoadmap = () => {
             </WhiteContainer>
           </div>
           <div className="w-full sm:w-[56%] min-w-[350px]">
-            <WhiteContainer className="w-full items-center justify-center ">
+            <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
               <LocalHeading text="Till the end of September:" />
             </WhiteContainer>
 
-            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px]">
+            <WhiteContainer className="w-full items-start justify-center mt-5 h-[110px] hover:bg-hoverBody transition-all duration-500">
               <ul className="list-disc ml-[20px]">
                 <li>Mem contests with prizes and rewards</li>
                 <li>Listing on CMC and coingeecko</li>
@@ -75,11 +100,11 @@ export const NewRoadmap = () => {
           <Heading text="Q4 2024" />
           <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 sm:gap-y-0  gap-x-8 lg:gap-x-14 mt-10">
             <div className="flex flex-col gap-y-4">
-              <WhiteContainer className="w-full items-center justify-center ">
+              <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
                 <LocalHeading text="October" />
               </WhiteContainer>
 
-              <WhiteContainer className="w-full items-start justify-center mt-5 h-full">
+              <WhiteContainer className="w-full items-start justify-center mt-5 h-full hover:bg-hoverBody transition-all duration-500">
                 <ul className="list-disc ml-[20px]">
                   <li>Finish design for Leopold merch</li>
                   <li>Listing on Symbiosis</li>
@@ -97,11 +122,11 @@ export const NewRoadmap = () => {
             </div>
 
             <div className="flex flex-col gap-y-4">
-              <WhiteContainer className="w-full items-center justify-center ">
+              <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
                 <LocalHeading text="November" />
               </WhiteContainer>
 
-              <WhiteContainer className="w-full items-start justify-center mt-5 h-full">
+              <WhiteContainer className="w-full items-start justify-center mt-5 h-full hover:bg-hoverBody transition-all duration-500">
                 <ul className="list-disc ml-[20px]">
                   <li>KOLs AND SHOUT OUTS FROM PARTNERS</li>
                   <li>MORE CONTEST WITH PRIZES AND REWARDS FOR MEM CREATION</li>
@@ -118,12 +143,13 @@ export const NewRoadmap = () => {
             </div>
 
             <div className="flex flex-col gap-y-4">
-              <WhiteContainer className="w-full items-center justify-center ">
+              <WhiteContainer className="w-full items-center justify-center hover:bg-hoverWhite transition-all duration-500">
                 <LocalHeading text="Q1-Q2 2025" />
               </WhiteContainer>
 
-              <WhiteContainer className="w-full items-start justify-center mt-5 h-full">
-                <ul className="list-disc ml-[20px]">
+              <WhiteContainer className="w-full items-start justify-center mt-5 h-full hover:bg-hoverBody transition-all duration-500">
+                <LocalHeading text="End of December" />
+                <ul className="2025 Plans">
                   <li>LISTING ON T2 EXCHANGES</li>
                   <li>MORE KOLs AROUND THE WORLD</li>
                   <li>EXCLUSIVE NFT’s FOR LEOPOLD</li>
@@ -136,7 +162,7 @@ export const NewRoadmap = () => {
           </div>
         </div>
 
-        <WhiteContainer className="w-full items-center justify-center flex-col sm:flex-row p-5 h-auto mt-[160px]">
+        <WhiteContainer className="w-full items-center justify-center flex-col sm:flex-row p-5 h-auto mt-[160px] hover:bg-[#d0d0ff] transition-all duration-500">
           <Image
             src="/roadmap/whitepaper.png"
             width={1313}

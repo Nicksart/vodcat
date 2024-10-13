@@ -51,14 +51,14 @@ export default function Home() {
       </article>
 
       <article
-        className="flex items-center z-10 -mt-[350px] md:-mt-[300px] flex-col md:pt-10 w-full bg-no-repeat bg-cover"
+        className="flex items-center z-10 pb-[500px] -mt-[350px] md:-mt-[300px] flex-col md:pt-10 w-full bg-no-repeat bg-cover"
         style={{ backgroundImage: "url('/bg/bg4.png')" }}
       >
         <Tokenomics />
       </article>
 
       <article
-        className="flex items-center -mt-[360px] md:-mt-[230px] flex-col pt-10 w-full bg-customBrown bg-no-repeat bg-cover"
+        className="flex items-center -mt-[150px] md:-mt-[280px] flex-col pt-10 w-full bg-customBrown bg-no-repeat bg-cover"
         style={{
           backgroundImage:
             "linear-gradient(to bottom, transparent, black), url('/bg/bg5.png')",

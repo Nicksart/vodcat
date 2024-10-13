@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <>
       <section className="w-full z-10 flex flex-col items-start justify-start container">
-        <div className="-mt-2 md:mt-2 lg:mt-10 xl:mt-20 w-full  h-[150px] sm:h-[200px] md:h-[300px] lg:h-[500px] relative z-10">
+        <div className="-mt-2 md:mt-2 lg:mt-10 xl:mt-20 w-full  h-[150px] sm:h-[200px] md:h-[300px] lg:h-[500px] relative z-10 transition-all duration-500 hover:drop-shadow-[0_0_40px_rgba(255,255,255,0.8)]">
           <Image
             src="/hero/hero-text.png"
             alt="VODCAT"
@@ -62,7 +62,7 @@ export const Hero = () => {
             </div>
           </div>
           <Image
-            src="/hero/hero.png"
+            src="/hero/hero.gif"
             alt="cat"
             width={250}
             height={300}
@@ -83,7 +83,7 @@ export const Hero = () => {
           </div>
         </div>
         <Image
-          src="/hero/hero.png"
+          src="/hero/hero.gif"
           alt="cat"
           width={1000}
           height={1200}
