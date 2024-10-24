@@ -18,21 +18,44 @@ export const Header = () => {
   return (
     <header className="flex w-full justify-between md:justify-end lg:justify-between container z-20">
       <div className="gap-x-5 xl:gap-x-10 text-lg lg:text-2xl xl:text-3xl hidden lg:flex">
-        <Button
-          type="yellow"
-          text="Holders parser"
-          className={cn(btnSize, "opacity-60 cursor-not-allowed")}
-        />
-        <Button
-          type="yellow"
-          text="Token sender"
-          className={cn(btnSize, "opacity-60 cursor-not-allowed")}
-        />
-        <Button
-          type="yellow"
-          text="Volume bot"
-          className={cn(btnSize, "opacity-60 cursor-not-allowed")}
-        />
+        <a
+        href="#chart"
+        rel="noopener noreferrer">
+          <Button
+            type="yellow"
+            text="Chart"
+            className="btn-p10"
+          />
+        </a>
+        <a
+        href="#roadmap"
+        rel="noopener noreferrer">
+          <Button
+            type="yellow"
+            text="Roadmap"
+            className="btn-p10"
+          />
+        </a>
+        <a
+        href="#tokenomics"
+        rel="noopener noreferrer">
+          <Button
+            type="yellow"
+            text="Tokenomics"
+            className="btn-p10"
+          />
+        </a>
+        <a
+        href="https://t.me/vodcatsmemes"
+        rel="noopener noreferrer"
+        target="_blank"
+        >
+          <Button
+            type="yellow"
+            text="Memes"
+            className="btn-p10"
+          />
+        </a>
       </div>
 
       <div className=" ml-2 flex md:hidden justify-center md:justify-start gap-x-4">

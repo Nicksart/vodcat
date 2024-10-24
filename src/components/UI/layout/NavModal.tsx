@@ -27,28 +27,48 @@ export const NavModal = ({ isOpen, onClose }: ModalProps) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white z-50 p-6 rounded-lg shadow-lg">
         <div className="flex flex-col gap-y-4 text-lg">
+        <a
+            href="#chart"
+            rel="noopener noreferrer"
+          >
           <Button
             type="yellow"
-            text="Holders parser"
+            text="Chart"
             className="py-3 px-4 xl:py-4 xl:px-5"
           />
+          </a>
+          <a
+            href="#roadmap"
+            rel="noopener noreferrer"
+          >
           <Button
             type="yellow"
-            text="Token sender"
+            text="Roadmap"
             className="py-3 px-4 xl:py-4 xl:px-5"
           />
+          </a>
+          <a
+            href="#tokenomics"
+            rel="noopener noreferrer"
+          >
           <Button
             type="yellow"
-            text="Volume bot"
+            text="Tokenomics"
             className="py-3 px-4 xl:py-4 xl:px-5"
           />
-
+          </a>
+          <a
+            href="https://t.me/vodcatsmemes"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
           <Button
             type="purple"
-            text="Dexscreener"
+            text="Memes"
             withIcon="screener"
             className="py-3 px-4 xl:py-4 xl:px-5"
           />
+          </a>
 
           <a
             href="https://www.dextools.io/app/en/solana/pair-explorer/479ekZizdwB756KbtW3jeMAQ8p6ozKiX6XXKsihDYFRv?t=1726117532509"

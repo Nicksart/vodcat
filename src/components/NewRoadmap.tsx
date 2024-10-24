@@ -28,7 +28,7 @@ const WhiteContainer = ({ children, className }: {children: React.ReactNode, cla
 
 export const NewRoadmap = () => {
   return (
-    <section className="flex relative flex-col items-center justify-center  uppercase z-20 container text-[16px] lg:text-[20px] font-light text-black">
+    <section className="flex relative flex-col items-center justify-center  uppercase z-20 container text-[16px] lg:text-[20px] font-light text-black" id="roadmap">
       <div className="relative w-full h-full ">
         <Image
           src="/gifs/3.gif"
@@ -54,7 +54,7 @@ export const NewRoadmap = () => {
           className="absolute animate-cloud-move mt-[1520px]"
         />
       </div>
-      <Heading text="Roadmap" />
+      <Heading text="Roadmap" / >
       <div className="flex flex-col items-center w-full mt-[100px] lg:mt-[160px]">
         <Heading text="Q3 2024" />
 

@@ -7,7 +7,7 @@ export const Chart = () => {
   const isMd = useBreakpoint("md");
 
     return (
-      <section className="flex flex-col items-center justify-center mt-[60px] container">
+      <section className="flex flex-col items-center justify-center mt-[60px] container" id="chart">
         <Heading text="Vodcat live chart" />
         <div className="rounded-lg w-full mt-4 md:mt-0">
           <div className="h-auto w-full bg-white p-2 md:p-5 mb-12 md:mb-0 rounded-lg overflow-hidden">

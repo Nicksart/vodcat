@@ -66,3 +66,7 @@ body {
 .delay-15000 {
   animation-delay: 15s; 
 }
+
+.btn-p10 {
+  padding: 10px;
+}
