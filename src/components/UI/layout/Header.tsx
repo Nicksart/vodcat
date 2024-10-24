@@ -2,7 +2,6 @@
 import { Button, CardWrap } from "@/components";
 import { useState } from "react";
 import { NavModal } from "./NavModal";
-import { cn } from "@/utils";
 import Image from "next/image";
 
 
